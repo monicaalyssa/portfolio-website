@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        Monica Williams
+    </title>
+    <link rel="icon" type="image/png" href="images/logo.png" sizes="32x32">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.production.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="page-header">
+        <!-- img needs to be replaced with a logo of my name -->
+        <img src="images/monica.svg" alt="Logo of the name Monica" class="page-header__item">
+        <nav class="main-nav page-header__item">
+            <ul role="menubar" class="nav-list">
+
+                <li role="presentation">
+                    <a href="index.html" class="nav-list__item" role="menuitem">home</a>
+                </li>
+
+                <li role="presentation">
+                    <a href="about.html" class="nav-list__item" role="menuitem">about</a>
+                </li>
+
+                <li role="presentation">
+                    <a href="work.html" class="nav-list__item" role="menuitem">my work</a>
+                </li>
+
+                <li role="presentation">
+                    <a href="contact.html" class="nav-list__item" role="menuitem">contact</a>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+    <div class="contact">
+        <h1 id="contact">Contact</h1>
+        <div class="contact-grid">
+            <h3 id="connect"> 
+              Lets connect!
+            </h3>
+            <div class="contact-grid-links">
+
+                <img src="./images/telephone.svg" alt="Telephone logo" id="telephone-logo">
+                <a class="contact-links" href="tel:+1 954 857 4156">954-857-4156</a>
+                <br>
+                <br>
+                <img src="./images/mail.svg" alt="Mail logo" id="mail-logo">
+                <a class="contact-links" href="mailto:monica_alyssa@icloud.com">monica_alyssa@icloud.com</a>
+            
+            </div>
+        </div>
+
+        <form action="" method="post" class="contact-form">
+            <h3>
+                Send me a message:
+            </h3>
+            <br>
+            <label class="standard-label" for="contact-name">Name:</label>
+            <input type="name" id="contact-name"><br>
+            <br>
+
+            <label class="standard-label" for="contact-tel">Telephone:</label>
+            <input type="tel" id="contact-tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}"><br>
+            <br>
+
+            <label class="standard-label" for="contact-email">Email: <span class="required-star">*</span></label>
+            <input type="email" id="contact-email" required><br>
+            <br>
+
+            <label class="standard-label" for="contact-message">Message: <span class="required-star">*</span></label>
+            <textarea maxlength="500" id="contact-message" required></textarea>
+            <p id="text-box-max">Max: 500 characters</p>
+            <br>
+            <br>
+            <input type="submit" class="sumbit" value="Send message">
+        </form>
+    </div>
+    <footer>
+        <p>
+            Find me on
+        </p>
+        <div class="social-media">
+            <!-- img needs to be replaced with logos of social media platforms -->
+            <a target="_blank" href="https://github.com/monicaalyssa"><img src="./images/github.svg" alt="Github"></a>
+            <a target="_blank" href="https://www.linkedin.com/in/monica-williams1"><img src="./images/linkedin.svg"
+                    alt="LinkedIn"></a>
+        </div>
+    </footer>
+    <script src="js/tota11y.min.js">
+    </script>
+</body>
+
+</html>
