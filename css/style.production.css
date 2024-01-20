@@ -368,34 +368,6 @@ a:active {
 /* ――――――――― CONTACT PAGE ――――――――― */
 
 
-.contact-grid {
-    padding: 0 55px;
-    font-weight: 400;
-}
-
-#connect {
-    font-weight: 500;
-    margin: 0 0 14px 0;
-}
-
-#mail-logo {
-    width: 14px;
-    margin: -1px 6px -1px 2px;
-}
-
-#telephone-logo {
-    width: 20px;
-    margin: -1px 1px;
-    position: relative;
-    top: 3.5px;
-    left: -2px;
-}
-
-.contact-grid-links {
-    font-size: 14px;
-    font-weight: 500;
-}
-
 .sumbit {
     padding: 10px 20px;
     color: black;
@@ -420,7 +392,7 @@ a:active {
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline;
-    padding: 40px
+    padding: 40px;
 }
 
 .standard-label {
