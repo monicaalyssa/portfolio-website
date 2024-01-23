@@ -122,10 +122,11 @@ h1 {
 
 .my-work-button svg {
     width: 1.5em;
-    margin: -0.15em 0.8em 1em;
+    margin: -0.2em 0.8em 1em;
     position: absolute;
     display: flex;
     transition: all 0.6s ease;
+
 }
 
 .my-work-button:hover svg {
@@ -134,11 +135,10 @@ h1 {
 
 .my-work-button-text {
     margin: 0 20px;
-    width: 233px;
-    top: 0.7px;
+    width: 225px;
+    top: 0.6px;
     position: relative;
     font-weight: 500;
-    letter-spacing: -0.2px;
 }
 
 .arrow {
@@ -194,12 +194,12 @@ h1#contact {
     width: 57%;
     text-align: center;
     position: relative;
-    display: inline-block;
+    display:inline-block;
     margin: 0 0 25px 0;
 }
 
 .invis {
-    visibility: hidden;
+    visibility:hidden;
 }
 
 .button-resume {
@@ -225,8 +225,8 @@ h1#contact {
 }
 
 .download {
-    width: 24px;
-    height: 24px;
+width: 24px;
+height: 24px;
 }
 
 .download:active {
@@ -379,37 +379,24 @@ footer {
 /* ――――――――― RESPONSIVE DESIGN ――――――――― */
 
 @media all and (max-width: 386px) {
-
     .nav-list li:nth-child(3) {
         margin-left: 0;
     }
-
-    .my-work-button {
-        max-width: 249px;
-        min-width: 249px;
-    }
-
-    .my-work-button-text {
-        font-size: 15px;
-        margin: 0 -7px;
-        top: 1px;
-    }
-
-    .my-work-button svg {
-        width: 1.35em;
-        top: 0.71em;
-    }
 }
+
 
 @media all and (max-width: 450px) {
 
+
     .page-header__item:nth-child(2) {
+
         margin-left: -70px;
     }
 
     .grid_item {
         padding: 20px;
     }
+  
 }
 
 @media all and (max-width: 500px) {
@@ -427,37 +414,18 @@ footer {
     .page-header__item:nth-child(1) {
         margin-right: -70px;
     }
-
     .about-text {
         font-size: 13px;
         width: 86%;
     }
 
-    .contact-form {
-        padding: 20px;
+.contact-form {
+    padding: 20px;
     }
-
-    .contact-grid {
-        padding: 35px;
-    }
-}
-
-@media all and (min-width: 386px) and (max-width: 679px) {
-
-    .my-work-button {
-        max-width: 279px;
-        min-width: 279px;
-    }
-
-    .my-work-button-text {
-        margin: 0 20px;
-        font-size: 17px;
-    }
-
-    .my-work-button svg {
-        width: 1.4em;
-        top: 0.668em;;
-    }
+ .contact-grid {
+    padding: 35px;
+ }
+    
 }
 
 @media all and (max-width: 679px) {
@@ -466,63 +434,78 @@ footer {
         margin-top: -10px;
     }
 
+
     .page-header__item:nth-child(1) {
         margin-top: -43px;
     }
 
     h1#helloworld {
         font-size: 40px;
-    }
-
-    .profile__portrait {
+            }
+        
+            .profile__portrait {
+        
         float: none;
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 99%;
         max-width: 330px;
-
-    }
-
-    div.profile {
-        text-align: center;
-        width: 80%;
-        position: relative;
-    }
-
-    .my-work-button {
-        margin-left: auto;
-        margin-right: auto;
-        position: absolute;
-        left: 0px;
-        right: 0px;
-        font-size: 15px;
-        display: block;
-    }
-
-    .about-text {
+            
+            }
+        
+            div.profile {
+                text-align: center;
+                width: 80%;
+                position: relative;
+         
+            }
+        
+            .my-work-button {
+            margin-left: auto;
+            margin-right: auto;
+            position: absolute;
+            left: 0px;
+            right: 0px;
+            font-size: 15px;
+            max-width: 255px;
+            min-width: 255px;
+            display: block;
+        
+            }
+            .my-work-button-text {
+                margin: 0 8px;
+        
+            }
+        
+        .my-work-button svg {
+            width: 1.4em;
+            top: 0.7em
+        }
+        
+       .about-text {
         font-size: 16px;
-    }
+       }
 }
 
-@media all and (min-width: 500px) and (max-width: 679px) {
 
+@media all and (min-width: 500px) and (max-width: 679px) {
     .nav-list {
 
-        padding-left: 72%;
+      padding-left: 72%;
     }
-
     .nav-list li:nth-child(3) {
         margin-left: 0;
     }
 }
 
-@media all and (min-width: 679px) {
 
+@media all and (min-width: 679px) {
     #contact-message {
         min-width: 400px;
     }
 }
+
 
 @media all and (min-width: 500px) and (max-width: 800px) {
 
@@ -541,7 +524,6 @@ footer {
         right: 10px;
         margin-left: 8.585%;
     }
-
     .page-header__item:nth-child(1) {
         margin-right: -70px;
     }
@@ -553,43 +535,39 @@ footer {
 }
 
 @media all and (min-width: 800px) and (max-width: 1500px) {
-
     .nav-list li {
         margin-left: 8.585%;
         margin-right: 0;
     }
-
     .page-header__item:nth-child(2) {
+
         margin-left: -70px;
     }
 
     .grid {
         grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    .nav-list li {
+}
+ .nav-list li {
         right: 10px;
-    }
+}
+.nav-list {
+    padding: 0 50px 0 0;
+}
 
-    .nav-list {
-        padding: 0 50px 0 0;
-    }
-
-    div.profile {
-        width: 80%;
-        padding: 20px 10px 20px 25px;
-    }
+div.profile {
+    width: 80%;
+    padding: 20px 10px 20px 25px;
+}
 }
 
 @media all and (min-width: 500px) and (max-width: 1097px) {
-
     .about-text {
         width: 75%;
     }
 }
 
-@media all and (min-width: 800px) and (max-width: 1024px) {
 
+@media all and (min-width: 800px) and (max-width: 1024px) {
     .grid {
         padding: 0 40px;
     }
