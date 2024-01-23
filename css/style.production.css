@@ -499,7 +499,6 @@ footer {
 @media all and (max-width: 450px) {
 
     .page-header__item:nth-child(2) {
-
         margin-left: -70px;
     }
 
@@ -575,21 +574,18 @@ footer {
     }
 
     .profile__portrait {
-
         float: none;
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 99%;
         max-width: 330px;
-
     }
 
     div.profile {
         text-align: center;
         width: 80%;
         position: relative;
-
     }
 
     .my-work-button {
@@ -622,7 +618,6 @@ footer {
 @media all and (min-width: 500px) and (max-width: 679px) {
 
     .nav-list {
-
         padding-left: 72%;
     }
 
@@ -646,55 +641,46 @@ footer {
         padding: 0px 40px;
         -ms-grid-rows: 270px 25px 270px 25px 270px 25px 270px;
         grid-template-rows: repeat(4, 270px);
-
     }
 
     .grid > *:nth-child(1) {
         -ms-grid-row: 1;
         -ms-grid-column: 1;
-
     }
 
     .grid > *:nth-child(2) {
         -ms-grid-row: 1;
         -ms-grid-column: 3;
-
     }
 
     .grid > *:nth-child(3) {
         -ms-grid-row: 3;
         -ms-grid-column: 1;
-
     }
 
     .grid > *:nth-child(4) {
         -ms-grid-row: 3;
         -ms-grid-column: 3;
-
     }
 
     .grid > *:nth-child(5) {
         -ms-grid-row: 5;
         -ms-grid-column: 1;
-
     }
 
     .grid > *:nth-child(6) {
         -ms-grid-row: 5;
         -ms-grid-column: 3;
-
     }
 
     .grid > *:nth-child(7) {
         -ms-grid-row: 7;
         -ms-grid-column: 1;
-
     }
 
     .grid > *:nth-child(8) {
         -ms-grid-row: 7;
         -ms-grid-column: 3;
-
     }
 
     .grid__item {

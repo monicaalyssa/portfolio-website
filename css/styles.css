@@ -390,7 +390,6 @@ footer {
 @media all and (max-width: 450px) {
 
     .page-header__item:nth-child(2) {
-
         margin-left: -70px;
     }
 
@@ -444,21 +443,18 @@ footer {
     }
 
     .profile__portrait {
-
         float: none;
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 99%;
         max-width: 330px;
-
     }
 
     div.profile {
         text-align: center;
         width: 80%;
         position: relative;
-
     }
 
     .my-work-button {
@@ -471,7 +467,6 @@ footer {
         max-width: 255px;
         min-width: 255px;
         display: block;
-
     }
 
     .my-work-button-text {
@@ -492,7 +487,6 @@ footer {
 @media all and (min-width: 500px) and (max-width: 679px) {
 
     .nav-list {
-
         padding-left: 72%;
     }
 
@@ -514,7 +508,6 @@ footer {
         grid-template-columns: 1fr 1fr;
         padding: 0px 40px;
         grid-template-rows: repeat(4, 270px);
-
     }
 
     .grid__item {
