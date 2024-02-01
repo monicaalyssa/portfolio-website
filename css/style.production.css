@@ -393,6 +393,7 @@ a:active {
         -ms-flex-align: baseline;
             align-items: baseline;
     padding: 40px;
+    padding-top: 0px;
 }
 
 .standard-label {
