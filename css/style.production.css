@@ -86,16 +86,19 @@ div.profile {
     text-align: left;
     margin: 60px auto 90px;
     padding: 20px 10px;
-    width: 70%;
-    max-width: 900px;
+    width: 90%;
+    max-width: 950px;
 }
 
 .profile__portrait {
     float: left;
-    width: 250px;
-    max-width: 400px;
+    width: 330px;
+    max-width: 330px;
     margin-right: 50px;
     height: auto;
+    -webkit-transform: translateY(-30px);
+        -ms-transform: translateY(-30px);
+            transform: translateY(-30px);
 }
 
 h1 {
@@ -580,6 +583,9 @@ footer {
         margin-right: auto;
         width: 99%;
         max-width: 330px;
+        -webkit-transform: translateY(0);
+            -ms-transform: translateY(0);
+                transform: translateY(0);
     }
 
     div.profile {
@@ -702,6 +708,43 @@ footer {
     }
 }
 
+@media all and (min-width: 680px) and (max-width: 1040px) {
+
+    .profile__portrait {
+        width: 260px;
+        -webkit-transform: translateY(-15px);
+            -ms-transform: translateY(-15px);
+                transform: translateY(-15px);
+    }
+    
+    div.profile {
+        padding: 20px 10px 20px 15px;
+    }
+
+    #helloworld {
+        font-size: 40px;
+    }
+
+    #profile__intro {
+        font-size: 15.5px;
+    }
+
+    .my-work-button {
+        font-size: 15px;
+        max-width: 255px;
+        min-width: 255px;
+    }
+
+}
+
+@media all and (min-width: 920px) and (max-width: 1040px) {
+    
+    div.profile {
+        padding-left: 60px;
+    }
+    
+}
+
 @media all and (min-width: 800px) and (max-width: 1500px) {
 
     .nav-list li {
@@ -726,10 +769,6 @@ footer {
         padding: 0 50px 0 0;
     }
 
-    div.profile {
-        width: 80%;
-        padding: 20px 10px 20px 25px;
-    }
 }
 
 @media all and (min-width: 500px) and (max-width: 1097px) {
