@@ -336,7 +336,7 @@ h1#contact {
     color: black;
     border-radius: 3%;
     text-align: center;
-    padding: 15px;
+    padding: 15px 30px;
     -webkit-box-shadow: rgba(0, 0, 0, 0.27) 0px 4px 12px 0px;
             box-shadow: rgba(0, 0, 0, 0.27) 0px 4px 12px 0px;
 }
@@ -349,6 +349,16 @@ h1#contact {
     transition: 0.2s;
 }
 
+.project-links {
+    font-size: 15px;
+}
+
+.bubble {
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 1px 10px;
+    font-size: 14px;
+}
 
 /* ――――――――― LINKED SITES ――――――――― */
 
